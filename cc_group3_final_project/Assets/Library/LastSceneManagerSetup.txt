@@ -1,0 +1,5 @@
+sceneSetups:
+- path: C:/Users/Mikayla/AppData/Local/Temp/Temp1_cc_final_teamproject-main.zip/cc_final_teamproject-main/cc_group3_final_project/Assets/Scenes/level1.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
