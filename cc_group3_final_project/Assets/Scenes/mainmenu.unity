@@ -380,9 +380,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60231a698a4ffdd4b94f6a3591151b91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstLevel: 
-  controlsScreen: {fileID: 0}
-  creditsScreen: {fileID: 0}
+  firstLevel: level1
+  controlsScreen: {fileID: 1857259855}
+  creditsScreen: {fileID: 1575612708}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -6420,7 +6420,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1575612709
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6777,7 +6777,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1857259856
 RectTransform:
   m_ObjectHideFlags: 0
