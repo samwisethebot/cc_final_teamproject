@@ -77,9 +77,7 @@ public class PlatformerController : MonoBehaviour
         if (collision.gameObject.tag == "Ground")
         {
             onGround = true;
-            print(onGround);
-            //print statements print to the Console panel in Unity. 
-            //This will print the value of onGround, which is a boolean, so either True or False.
+            
         }
     }
 
@@ -89,7 +87,7 @@ public class PlatformerController : MonoBehaviour
         if (collision.gameObject.tag == "Ground")
         {
             onGround = false;
-            print(onGround);
+            
         }
     }
 }
