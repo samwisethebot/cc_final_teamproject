@@ -627,12 +627,12 @@ GameObject:
   - component: {fileID: 315024723}
   - component: {fileID: 315024719}
   - component: {fileID: 315024716}
-  - component: {fileID: 315024728}
   - component: {fileID: 315024720}
   - component: {fileID: 315024722}
   - component: {fileID: 315024721}
   - component: {fileID: 315024717}
   - component: {fileID: 315024718}
+  - component: {fileID: 315024728}
   m_Layer: 0
   m_Name: dead_chipmunk
   m_TagString: Untagged
@@ -694,7 +694,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 315024715}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 315024716}
   variables: []
   description: 
   stepPause: 0
@@ -721,7 +722,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 112.412415
-    y: 23.06723
+    y: 21.06723
     width: 163
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1071,14 +1072,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 315024711}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a98f5f89242e80d42865cdf1912beda3, type: 3}
+  m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 315024715}
   suppressBlockAutoSelect: 0
-  tagFilter: []
-  FireOn: 1
-  colliderVar: {fileID: 0}
+  FireOn: 64
 --- !u!1 &416148477
 GameObject:
   m_ObjectHideFlags: 0
@@ -1884,21 +1883,19 @@ BoxCollider:
   m_Center: {x: -0.15, y: -0.04, z: 0}
 --- !u!114 &669323466
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 669323463}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a98f5f89242e80d42865cdf1912beda3, type: 3}
+  m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 669323481}
   suppressBlockAutoSelect: 0
-  tagFilter: []
-  FireOn: 1
-  colliderVar: {fileID: 0}
+  FireOn: 64
 --- !u!114 &669323467
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2338,7 +2335,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 669323474}
+  - {fileID: 669323481}
   selectedCommands: []
   variables: []
   description: 
@@ -3103,11 +3100,11 @@ GameObject:
   - component: {fileID: 981450899}
   - component: {fileID: 981450900}
   - component: {fileID: 981450902}
-  - component: {fileID: 981450906}
   - component: {fileID: 981450905}
   - component: {fileID: 981450904}
   - component: {fileID: 981450903}
   - component: {fileID: 981450901}
+  - component: {fileID: 981450906}
   m_Layer: 0
   m_Name: menu
   m_TagString: Untagged
@@ -3169,8 +3166,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 981450902}
-  selectedCommands:
-  - {fileID: 981450901}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -3323,21 +3319,19 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &981450906
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981450897}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a98f5f89242e80d42865cdf1912beda3, type: 3}
+  m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 981450902}
   suppressBlockAutoSelect: 0
-  tagFilter: []
-  FireOn: 1
-  colliderVar: {fileID: 0}
+  FireOn: 64
 --- !u!1 &990031491
 GameObject:
   m_ObjectHideFlags: 0
@@ -5602,11 +5596,11 @@ GameObject:
   - component: {fileID: 2097497387}
   - component: {fileID: 2097497389}
   - component: {fileID: 2097497395}
-  - component: {fileID: 2097497394}
   - component: {fileID: 2097497393}
   - component: {fileID: 2097497392}
   - component: {fileID: 2097497391}
   - component: {fileID: 2097497390}
+  - component: {fileID: 2097497394}
   m_Layer: 0
   m_Name: evil_tome
   m_TagString: Untagged
@@ -10442,7 +10436,7 @@ MonoBehaviour:
   scrollPos: {x: 73.587585, y: 66.93277}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 511
+  blockViewHeight: 280
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -10450,7 +10444,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 2097497395}
   selectedCommands: []
   variables: []
   description: 
@@ -10582,14 +10577,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2097497383}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a98f5f89242e80d42865cdf1912beda3, type: 3}
+  m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 2097497395}
   suppressBlockAutoSelect: 0
-  tagFilter: []
-  FireOn: 1
-  colliderVar: {fileID: 0}
+  FireOn: 64
 --- !u!114 &2097497395
 MonoBehaviour:
   m_ObjectHideFlags: 2
