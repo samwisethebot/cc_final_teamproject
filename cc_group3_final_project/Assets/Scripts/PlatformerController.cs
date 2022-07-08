@@ -41,7 +41,12 @@ public class PlatformerController : MonoBehaviour
             rb.velocity = Vector2.up * jumpHeight;
             canJump = false;
         }
-
+        //If we're able to jump and the player has pressed w, then we jump!
+        if (Input.GetKeyDown(KeyCode.W) && canJump == true)
+        {
+            rb.velocity = Vector2.up * jumpHeight;
+            canJump = false;
+        }
 
         //Movement code for left and right arrow keys.
         if (Input.GetKey(KeyCode.LeftArrow))
@@ -55,6 +60,27 @@ public class PlatformerController : MonoBehaviour
         }
 
         else if (Input.GetKey(KeyCode.RightArrow))
+        {
+            float finalSpeed = speed;
+            if (onGround == false)
+            {
+                finalSpeed *= 0.5f;
+            }
+            rb.velocity = new Vector2(+speed, rb.velocity.y);
+        }
+
+        //Movement code for a and d keys.
+        if (Input.GetKey(KeyCode.A))
+        {
+            float finalSpeed = speed;
+            if (onGround == false)
+            {
+                finalSpeed *= 0.5f;
+            }
+            rb.velocity = new Vector2(-speed, rb.velocity.y);
+        }
+
+        else if (Input.GetKey(KeyCode.D))
         {
             float finalSpeed = speed;
             if (onGround == false)
