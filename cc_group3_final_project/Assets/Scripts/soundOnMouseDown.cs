@@ -4,26 +4,25 @@ using UnityEngine;
 
 public class soundOnMouseDown : MonoBehaviour
 {
-    public AudioClip tomeSfx;
+    public AudioClip valvesfx;
     private AudioSource audioSource;
    
-    void Start () 
-    {
+    void Start () {
         audioSource = gameObject.GetComponent<AudioSource> ();
-          
-    }
    
-    void OnMouseOver() 
+       
+    }
+    void OnMouseDown() 
     {
  
         if (Input.GetMouseButtonDown(0))
         {
-            audioSource.enabled = true;
-            if (!audioSource.isPlaying) 
-            {
-                audioSource.clip = tomeSfx;
+           audioSource.enabled = true;
+           if (!audioSource.isPlaying) 
+           {
+                audioSource.clip = valvesfx;
                 audioSource.Play ();
-            }
+           }
         }
     }    
 }

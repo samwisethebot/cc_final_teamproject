@@ -8,9 +8,14 @@ public class ButtonLoadScene : MonoBehaviour
 
     public string sceneToLoad;
     
-    // Start is called before the first frame update
-    public void LoadScene()
+    
+    void OnMouseDown() 
     {
-        SceneManager.LoadScene(sceneToLoad);
-    }
+ 
+        if (Input.GetMouseButtonDown(0))
+        {
+           SceneManager.LoadScene(sceneToLoad);
+        }
+    }    
+    
 }
