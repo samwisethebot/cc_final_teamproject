@@ -369,14 +369,24 @@ GameObject:
   - component: {fileID: 95540816}
   - component: {fileID: 95540815}
   - component: {fileID: 95540814}
-  - component: {fileID: 95540813}
-  - component: {fileID: 95540812}
-  - component: {fileID: 95540811}
-  - component: {fileID: 95540810}
   - component: {fileID: 95540809}
   - component: {fileID: 95540808}
   - component: {fileID: 95540807}
   - component: {fileID: 95540806}
+  - component: {fileID: 95540828}
+  - component: {fileID: 95540827}
+  - component: {fileID: 95540826}
+  - component: {fileID: 95540825}
+  - component: {fileID: 95540824}
+  - component: {fileID: 95540823}
+  - component: {fileID: 95540822}
+  - component: {fileID: 95540821}
+  - component: {fileID: 95540820}
+  - component: {fileID: 95540819}
+  - component: {fileID: 95540813}
+  - component: {fileID: 95540812}
+  - component: {fileID: 95540811}
+  - component: {fileID: 95540810}
   m_Layer: 0
   m_Name: evil_tome
   m_TagString: Untagged
@@ -550,9 +560,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 4
+  itemId: 14
   indentLevel: 0
-  storyText: Look, it's glowing purple. That's the only explanation.
+  storyText: I'd survive in a horror movie for sure.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -577,9 +587,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 3
+  itemId: 13
   indentLevel: 0
-  storyText: And maybe I bought this there...?
+  storyText: I am so smart.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -604,11 +614,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2
+  itemId: 12
   indentLevel: 0
-  storyText: I could, like there's that one traveling van where they sell occult
-    books out of the back of it and anytime it parks out front, I feel like I have
-    to buy something.
+  storyText: Is this some new coding language?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -633,9 +641,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1
+  itemId: 11
   indentLevel: 0
-  storyText: Have I... always had this book?
+  storyText: Hm...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -673,10 +681,13 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 95540809}
   commandList:
-  - {fileID: 95540813}
-  - {fileID: 95540812}
-  - {fileID: 95540811}
-  - {fileID: 95540810}
+  - {fileID: 95540828}
+  - {fileID: 95540827}
+  - {fileID: 95540826}
+  - {fileID: 95540825}
+  - {fileID: 95540824}
+  - {fileID: 95540823}
+  - {fileID: 95540822}
   suppressAllAutoSelections: 0
 --- !u!114 &95540815
 MonoBehaviour:
@@ -694,7 +705,7 @@ MonoBehaviour:
   scrollPos: {x: 73.587585, y: 66.93277}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 280
+  blockViewHeight: 439
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -702,8 +713,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 95540814}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -5502,6 +5512,283 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &95540819
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95540804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 10
+  indentLevel: 0
+  storyText: "\u2690\uFE0E\u25FB\uFE0E\u264F\uFE0E\u25A0\uFE0E\u2653\uFE0E\u25A0\uFE0E\u2651\uFE0E
+    \u29EB\uFE0E\u2652\uFE0E\u2653\uFE0E\u2B27\uFE0E \u264C\uFE0E\u25A1\uFE0E\u25A1\uFE0E\U0001F675
+    \u2B25\uFE0E\u2653\uFE0E\u25CF\uFE0E\u25CF\uFE0E \u29EB\uFE0E\u2752\uFE0E\u2653\uFE0E\u2651\uFE0E\u2651\uFE0E\u264F\uFE0E\u2752\uFE0E
+    \u29EB\uFE0E\u2652\uFE0E\u264F\uFE0E \u264F\uFE0E\u25A0\uFE0E\u264E\uFE0E \u25A1\uFE0E\u2650\uFE0E
+    \u29EB\uFE0E\u2652\uFE0E\u264F\uFE0E \u2B25\uFE0E\u25A1\uFE0E\u2752\uFE0E\u25CF\uFE0E\u264E\uFE0E\U0001F4EA\uFE0E
+    \u2652\uFE0E\u264B\uFE0E\u2756\uFE0E\u264F\uFE0E \u2650\uFE0E\u25C6\uFE0E\u25A0\uFE0E\u270F\uFE0E"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &95540820
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95540804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 236.41241
+    y: 68.06723
+    width: 147
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 9
+  blockName: do not open book
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 95540811}
+  - {fileID: 95540810}
+  suppressAllAutoSelections: 0
+--- !u!114 &95540821
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95540804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 83.412415
+    y: 72.06723
+    width: 109
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 8
+  blockName: open book
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 95540819}
+  - {fileID: 95540813}
+  - {fileID: 95540812}
+  suppressAllAutoSelections: 0
+--- !u!114 &95540822
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95540804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 7
+  indentLevel: 0
+  text: Think of all the scary movies you've seen and all the times you've yelled
+    at the MC to not open the forbidden book.
+  description: 
+  targetBlock: {fileID: 95540820}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &95540823
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95540804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 6
+  indentLevel: 0
+  text: Open! The! Book!
+  description: 
+  targetBlock: {fileID: 95540821}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &95540824
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95540804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 5
+  indentLevel: 0
+  storyText: "Something's telling me to open it but I also know that if I open it,
+    that's... not the best idea.\r But maybe it has something to do with the murder."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &95540825
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95540804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 4
+  indentLevel: 0
+  storyText: ...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &95540826
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95540804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3
+  indentLevel: 0
+  storyText: I'm cool but like, I'm not so cool that I would own not one but two
+    glowing books.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &95540827
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95540804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2
+  indentLevel: 0
+  storyText: These absolutely just appeared out of nowhere.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &95540828
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95540804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1
+  indentLevel: 0
+  storyText: All right, no, I did not buy these books ever.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &111384056
 GameObject:
   m_ObjectHideFlags: 0
@@ -6131,21 +6418,14 @@ GameObject:
   - component: {fileID: 315024712}
   - component: {fileID: 315024713}
   - component: {fileID: 315024714}
-  - component: {fileID: 315024715}
-  - component: {fileID: 315024727}
-  - component: {fileID: 315024726}
-  - component: {fileID: 315024725}
-  - component: {fileID: 315024724}
-  - component: {fileID: 315024723}
-  - component: {fileID: 315024719}
-  - component: {fileID: 315024716}
-  - component: {fileID: 315024720}
-  - component: {fileID: 315024722}
-  - component: {fileID: 315024721}
-  - component: {fileID: 315024717}
-  - component: {fileID: 315024718}
-  - component: {fileID: 315024728}
   - component: {fileID: 315024729}
+  - component: {fileID: 315024721}
+  - component: {fileID: 315024720}
+  - component: {fileID: 315024719}
+  - component: {fileID: 315024718}
+  - component: {fileID: 315024717}
+  - component: {fileID: 315024716}
+  - component: {fileID: 315024715}
   m_Layer: 0
   m_Name: level2_item1
   m_TagString: Untagged
@@ -6206,9 +6486,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 315024715}
+  - {fileID: 315024721}
   selectedCommands:
-  - {fileID: 315024716}
+  - {fileID: 315024715}
   variables: []
   description: 
   stepPause: 0
@@ -6222,92 +6502,7 @@ MonoBehaviour:
   luaBindingName: flowchart
 --- !u!114 &315024715
 MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315024711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 112.412415
-    y: 21.06723
-    width: 163
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 0
-  blockName: Find dead chipmunk
-  description: 
-  eventHandler: {fileID: 315024728}
-  commandList:
-  - {fileID: 315024727}
-  - {fileID: 315024726}
-  - {fileID: 315024725}
-  - {fileID: 315024724}
-  - {fileID: 315024723}
-  - {fileID: 315024719}
-  - {fileID: 315024716}
-  suppressAllAutoSelections: 0
---- !u!114 &315024716
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315024711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 13
-  indentLevel: 0
-  text: Go figure out what tf happened
-  description: 
-  targetBlock: {fileID: 315024717}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &315024717
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315024711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 297.4124
-    y: 108.06723
-    width: 112
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 8
-  blockName: Investigate
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 315024718}
-  suppressAllAutoSelections: 0
---- !u!114 &315024718
-MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6317,9 +6512,92 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 12
+  itemId: 5
   indentLevel: 0
-  storyText: Hm... getting some weird vibes here. I'm gonna go take a look around.
+  storyText: ...on second thought, that's probably cause for concern. No living being
+    should be able to contain that much caffeine in their body.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &315024716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315024711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 4
+  indentLevel: 0
+  storyText: They were always chill though after having it.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &315024717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315024711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3
+  indentLevel: 0
+  storyText: You can feel the caffeine hit like swallowing a wasp and then you spend
+    the rest of your day doing a speedrun of niche YouTube videos.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &315024718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315024711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2
+  indentLevel: 0
+  storyText: I don't know why though, this is our cheapest black tea.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6334,222 +6612,20 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &315024719
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 315024711}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 6
-  indentLevel: 0
-  text: Mourn some more.
-  description: 
-  targetBlock: {fileID: 315024720}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  parentBlock: {fileID: 315024721}
+  suppressBlockAutoSelect: 0
+  FireOn: 64
 --- !u!114 &315024720
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315024711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 34.412415
-    y: 115.06723
-    width: 86
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 7
-  blockName: Mourn
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 315024722}
-  - {fileID: 315024721}
-  suppressAllAutoSelections: 0
---- !u!114 &315024721
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315024711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 10
-  indentLevel: 0
-  text: Go figure out what tf happened
-  description: 
-  targetBlock: {fileID: 315024717}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &315024722
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315024711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 9
-  indentLevel: 0
-  storyText: They lived a long and happy life. I think... you know what, I'm not
-    so sure now. They would always just say their day was "good" and you know how
-    everyone loves to just lie about their day and carry on to go have their boba
-    tea in peace.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &315024723
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315024711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 5
-  indentLevel: 0
-  storyText: "Damn, they were such a good customer. It's a shame.\r"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &315024724
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315024711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 4
-  indentLevel: 0
-  storyText: Walking in and seeing a murder in your business as a business owner
-    is bad right?
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &315024725
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315024711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 3
-  indentLevel: 0
-  storyText: This seems bad.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &315024726
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315024711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2
-  indentLevel: 0
-  storyText: Uh...
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &315024727
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6563,7 +6639,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: Oh. Shit.
+  storyText: Aw... this was [chipmunk's name?] favorite tea.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6576,7 +6652,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &315024728
+--- !u!114 &315024721
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6585,12 +6661,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 315024711}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 315024715}
-  suppressBlockAutoSelect: 0
-  FireOn: 64
+  nodeRect:
+    serializedVersion: 2
+    x: 53.83795
+    y: 9.152336
+    width: 113
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 0
+  blockName: Monologue
+  description: 
+  eventHandler: {fileID: 315024719}
+  commandList:
+  - {fileID: 315024720}
+  - {fileID: 315024718}
+  - {fileID: 315024717}
+  - {fileID: 315024716}
+  - {fileID: 315024715}
+  suppressAllAutoSelections: 0
 --- !u!114 &315024729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7470,6 +7562,8 @@ GameObject:
   - component: {fileID: 669323464}
   - component: {fileID: 669323465}
   - component: {fileID: 669323482}
+  - component: {fileID: 669323483}
+  - component: {fileID: 669323484}
   - component: {fileID: 669323481}
   - component: {fileID: 669323480}
   - component: {fileID: 669323479}
@@ -7486,7 +7580,6 @@ GameObject:
   - component: {fileID: 669323468}
   - component: {fileID: 669323467}
   - component: {fileID: 669323466}
-  - component: {fileID: 669323483}
   m_Layer: 0
   m_Name: level2_item2
   m_TagString: Untagged
@@ -7531,12 +7624,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 669323463}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 669323481}
-  suppressBlockAutoSelect: 0
-  FireOn: 64
+  itemId: 15
+  indentLevel: 0
+  storyText: I'll have to be responsible for a whole tub of spackle I'll only use
+    once and that is so annoying.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &669323467
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7549,9 +7655,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 24
+  itemId: 14
   indentLevel: 0
-  storyText: "Hm... how did it break though...?\r"
+  storyText: Please don't make me buy spackle.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7576,10 +7682,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 23
+  itemId: 13
   indentLevel: 0
-  storyText: "Yeah OK so I'm just going to make a very nice fabricated lie about
-    how it broke.\r"
+  storyText: ...oh no. Please stop.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7604,9 +7709,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 22
+  itemId: 12
   indentLevel: 0
-  storyText: ...
+  storyText: '{i}The crack opens up a little bit more.{/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7628,26 +7733,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 669323463}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 231.66241
-    y: 76.56723
-    width: 159.37503
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 28
-  blockName: moms love their kids
+  itemId: 11
+  indentLevel: 0
+  storyText: You know what, one day I'll sell this place and let the future owner
+    deal with it.
   description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 669323469}
-  - {fileID: 669323468}
-  - {fileID: 669323467}
-  suppressAllAutoSelections: 0
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &669323471
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7660,9 +7764,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 17
+  itemId: 10
   indentLevel: 0
-  storyText: "Hm... how did it break though...?\r"
+  storyText: '"Hello Customer welcome to [insert tea house title] slash Spirit Halloween"'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7687,10 +7791,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 16
+  itemId: 9
   indentLevel: 0
-  storyText: "Yeah OK so I'm just going to make a very nice fabricated lie about
-    how it broke.\r"
+  storyText: And on top of the murder I don't need an even creepier business.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7715,9 +7818,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 15
+  itemId: 8
   indentLevel: 0
-  storyText: ...
+  storyText: OK yeah I definitely just made it worse.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7739,26 +7842,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 669323463}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: -46.337585
-    y: 86.56723
-    width: 107.812515
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 20
-  blockName: death wish
+  itemId: 7
+  indentLevel: 0
+  storyText: '{i}The blue-sparkly Colgate actually does blend in with the color scheme
+    of the wall, but it starts to ooze out of the wall which is somehow even creepier.{/i}'
   description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 669323473}
-  - {fileID: 669323472}
-  - {fileID: 669323471}
-  suppressAllAutoSelections: 0
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &669323475
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7768,23 +7870,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 669323463}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 133.29242
+    y: 20.669998
+    width: 127
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
   itemId: 6
-  indentLevel: 0
-  text: This is the honorable thing to do and for that she will love you unconditionally
-    forevermore.
+  blockName: do not fix wall
   description: 
-  targetBlock: {fileID: 669323470}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 669323470}
+  - {fileID: 669323469}
+  - {fileID: 669323468}
+  - {fileID: 669323467}
+  - {fileID: 669323466}
+  suppressAllAutoSelections: 0
 --- !u!114 &669323476
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7794,22 +7901,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 669323463}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -50.707573
+    y: 32.67
+    width: 89
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
   itemId: 5
-  indentLevel: 0
-  text: Hahaha what a lovely death wish!
+  blockName: fix wall
   description: 
-  targetBlock: {fileID: 669323474}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 669323474}
+  - {fileID: 669323473}
+  - {fileID: 669323472}
+  - {fileID: 669323471}
+  suppressAllAutoSelections: 0
 --- !u!114 &669323477
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7819,24 +7931,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 669323463}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: "Maybe I should tell her.\r"
+  text: Let the crack ominously exist for eternity because you're afraid of the experts
+    at Home Depot
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetBlock: {fileID: 669323475}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &669323478
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7846,25 +7957,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 669323463}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: She's going to be so mad at me when she comes in here next and sees
-    it isn't here. She always makes sure it's in here.
+  text: Fix the wall with Colgate
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetBlock: {fileID: 669323476}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &669323479
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7879,7 +7987,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: This was a high school graduation gift from Mom.
+  storyText: 'My old roommate from college always promised that they would teach
+    me how to use spackle but we never got around to it.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7906,7 +8017,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: Ughhhhhhh noooooooo. This tea pot was my fave.
+  storyText: Ugh... this is going to need so much toothpaste.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7928,29 +8039,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 669323463}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 70.224915
-    y: -37.307774
-    width: 126.562515
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 13
-  blockName: broken tea pot
-  description: 
-  eventHandler: {fileID: 669323466}
-  commandList:
-  - {fileID: 669323480}
-  - {fileID: 669323479}
-  - {fileID: 669323478}
-  - {fileID: 669323477}
-  - {fileID: 669323476}
-  - {fileID: 669323475}
-  suppressAllAutoSelections: 0
+  parentBlock: {fileID: 669323484}
+  suppressBlockAutoSelect: 0
+  FireOn: 64
 --- !u!114 &669323482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7964,19 +8058,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 232.34416, y: 205.36105}
+  scrollPos: {x: 117.70757, y: 142.33}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 511
-  zoom: 0.63999987
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 669323481}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -8004,6 +8097,36 @@ MonoBehaviour:
   cursorTexture: {fileID: 2800000, guid: ab9aaf5f57526664ab89213a8e568db3, type: 3}
   cursorMode: 0
   hotspot: {x: 0, y: 0}
+--- !u!114 &669323484
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669323463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 28.5934
+    y: -44.423523
+    width: 142
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 0
+  blockName: crack in the wall
+  description: 
+  eventHandler: {fileID: 669323481}
+  commandList:
+  - {fileID: 669323480}
+  - {fileID: 669323479}
+  - {fileID: 669323478}
+  - {fileID: 669323477}
+  suppressAllAutoSelections: 0
 --- !u!1 &691509663
 GameObject:
   m_ObjectHideFlags: 0
@@ -8598,12 +8721,12 @@ GameObject:
   - component: {fileID: 981450899}
   - component: {fileID: 981450900}
   - component: {fileID: 981450902}
-  - component: {fileID: 981450905}
-  - component: {fileID: 981450904}
-  - component: {fileID: 981450903}
   - component: {fileID: 981450901}
   - component: {fileID: 981450906}
   - component: {fileID: 981450907}
+  - component: {fileID: 981450905}
+  - component: {fileID: 981450904}
+  - component: {fileID: 981450903}
   m_Layer: 0
   m_Name: level2_item3
   m_TagString: Untagged
@@ -8666,7 +8789,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 981450902}
   selectedCommands:
-  - {fileID: 981450905}
+  - {fileID: 981450903}
   variables: []
   description: 
   stepPause: 0
@@ -8692,7 +8815,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: I really should laminate these.
+  storyText: Oh no, Mister Assam! You were doing so well!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8719,25 +8842,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 146.41241
-    y: 25.06723
-    width: 83.33333
+    x: -240.58759
+    y: -98.93277
+    width: 112
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 0
-  blockName: Menu
+  blockName: dying plant
   description: 
   eventHandler: {fileID: 981450906}
   commandList:
+  - {fileID: 981450901}
   - {fileID: 981450905}
   - {fileID: 981450904}
   - {fileID: 981450903}
-  - {fileID: 981450901}
   suppressAllAutoSelections: 0
 --- !u!114 &981450903
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8747,9 +8870,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 3
+  itemId: 7
   indentLevel: 0
-  storyText: Or maybe now that one murder happened here it's just the beginning....
+  storyText: Would they?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8764,7 +8887,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &981450904
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8774,10 +8897,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2
+  itemId: 6
   indentLevel: 0
-  storyText: Maybe it's too late... What's the probability another murder will happen
-    here?
+  storyText: This sarcastic tea addict chipmunk wouldn't lie to me.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8792,7 +8914,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &981450905
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8802,9 +8924,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1
+  itemId: 5
   indentLevel: 0
-  storyText: I really should laminate these.
+  storyText: '[chipmunk''s name] even congratulated me for taking such a good care
+    of you last week.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9130,7 +9253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 981450900}
+  selectedFlowchart: {fileID: 95540815}
 --- !u!4 &1121966049
 Transform:
   m_ObjectHideFlags: 1
@@ -9695,6 +9818,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1399068861}
   - component: {fileID: 1399068847}
+  - component: {fileID: 1399068853}
+  - component: {fileID: 1399068852}
+  - component: {fileID: 1399068851}
+  - component: {fileID: 1399068850}
+  - component: {fileID: 1399068849}
+  - component: {fileID: 1399068848}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -9726,7 +9855,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1399068853}
   selectedCommands: []
   variables: []
   description: 
@@ -9739,6 +9869,160 @@ MonoBehaviour:
   hideCommands: []
   luaEnvironment: {fileID: 0}
   luaBindingName: flowchart
+--- !u!114 &1399068848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399068846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1399068853}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
+--- !u!114 &1399068849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399068846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 4
+  indentLevel: 0
+  storyText: They need to be appreciated more by the general public!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1399068850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399068846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3
+  indentLevel: 0
+  storyText: ...I worked really hard on the decorations!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1399068851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399068846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2
+  indentLevel: 0
+  storyText: Murder's a serious topic and all, but I {i}really{/i} hope nothing's
+    broken in this room
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1399068852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399068846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1
+  indentLevel: 0
+  storyText: Let's see if I can find any clues in here.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1399068853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399068846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 24.912415
+    y: 20.06723
+    width: 113
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 0
+  blockName: Monologue
+  description: 
+  eventHandler: {fileID: 1399068848}
+  commandList:
+  - {fileID: 1399068852}
+  - {fileID: 1399068851}
+  - {fileID: 1399068850}
+  - {fileID: 1399068849}
+  suppressAllAutoSelections: 0
 --- !u!4 &1399068861
 Transform:
   m_ObjectHideFlags: 0
