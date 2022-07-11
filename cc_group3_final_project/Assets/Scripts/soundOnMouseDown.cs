@@ -7,6 +7,9 @@ public class soundOnMouseDown : MonoBehaviour
     public AudioClip valvesfx;
     private AudioSource audioSource;
    
+    public bool onlyPlayOnce;
+    bool hasTriggered;
+
     void Start () {
         audioSource = gameObject.GetComponent<AudioSource> ();
    
@@ -15,7 +18,7 @@ public class soundOnMouseDown : MonoBehaviour
     void OnMouseDown() 
     {
  
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && hasTriggered == false)
         {
            audioSource.enabled = true;
            if (!audioSource.isPlaying) 
@@ -23,6 +26,10 @@ public class soundOnMouseDown : MonoBehaviour
                 audioSource.clip = valvesfx;
                 audioSource.Play ();
            }
+           if (onlyPlayOnce == true)
+        {
+            hasTriggered = true;
+        }
         }
     }    
 }
