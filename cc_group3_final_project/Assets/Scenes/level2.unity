@@ -391,6 +391,10 @@ GameObject:
   - component: {fileID: 95540832}
   - component: {fileID: 95540831}
   - component: {fileID: 95540830}
+  - component: {fileID: 95540836}
+  - component: {fileID: 95540835}
+  - component: {fileID: 95540834}
+  - component: {fileID: 95540833}
   m_Layer: 0
   m_Name: evil_tome
   m_TagString: Untagged
@@ -569,7 +573,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I'd survive in a horror movie for sure.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -596,7 +600,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I am so smart.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -623,7 +627,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Is this some new coding language?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -650,7 +654,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Hm...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -676,7 +680,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 163.41241
-    y: 7.06723
+    y: 6.06723
     width: 101
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -718,7 +722,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 95540820}
   selectedCommands: []
   variables:
   - {fileID: 95540829}
@@ -5606,6 +5611,10 @@ MonoBehaviour:
   - {fileID: 95540819}
   - {fileID: 95540813}
   - {fileID: 95540812}
+  - {fileID: 95540836}
+  - {fileID: 95540835}
+  - {fileID: 95540834}
+  - {fileID: 95540833}
   - {fileID: 95540832}
   - {fileID: 95540831}
   - {fileID: 95540830}
@@ -5678,7 +5687,7 @@ MonoBehaviour:
   storyText: "Something's telling me to open it but I also know that if I open it,
     that's... not the best idea.\r But maybe it has something to do with the murder."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5705,7 +5714,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: ...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5733,7 +5742,7 @@ MonoBehaviour:
   storyText: I'm cool but like, I'm not so cool that I would own not one but two
     glowing books.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5760,7 +5769,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: These absolutely just appeared out of nowhere.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5787,7 +5796,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: All right, no, I did not buy these books ever.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6225,6 +6234,117 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &95540833
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95540804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 0
+  storyText: Damn, now I can't use the "film school was useless for me" bit. I proved
+    myself wrong.
+  description: 
+  character: {fileID: 1568301145}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &95540834
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95540804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  indentLevel: 0
+  storyText: ...Actually wait that checks out. This whole investigation is sort of
+    like Dr. Caligari.
+  description: 
+  character: {fileID: 1568301145}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &95540835
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95540804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  indentLevel: 0
+  storyText: Yes how useful that whole semester of German Expression was in running
+    my business, a tea house with a murder history!
+  description: 
+  character: {fileID: 1568301145}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &95540836
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95540804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 18
+  indentLevel: 0
+  storyText: I really should've studied coding instead of going to film school.
+  description: 
+  character: {fileID: 1568301145}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &111384056
 GameObject:
   m_ObjectHideFlags: 0
@@ -6925,8 +7045,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 315024721}
-  selectedCommands:
-  - {fileID: 315024715}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -6955,7 +7074,7 @@ MonoBehaviour:
   storyText: ...on second thought, that's probably cause for concern. No living being
     should be able to contain that much caffeine in their body.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6982,7 +7101,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: They were always chill though after having it.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7010,7 +7129,7 @@ MonoBehaviour:
   storyText: You can feel the caffeine hit like swallowing a wasp and then you spend
     the rest of your day doing a speedrun of niche YouTube videos.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7037,7 +7156,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I don't know why though, this is our cheapest black tea.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7077,9 +7196,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: Aw... this was [chipmunk's name?] favorite tea.
+  storyText: Aw... this was Yaghraodrur's favorite tea.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8182,7 +8301,7 @@ MonoBehaviour:
   storyText: I'll have to be responsible for a whole tub of spackle I'll only use
     once and that is so annoying.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8209,7 +8328,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Please don't make me buy spackle.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8236,7 +8355,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: ...oh no. Please stop.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8291,7 +8410,7 @@ MonoBehaviour:
   storyText: You know what, one day I'll sell this place and let the future owner
     deal with it.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8316,9 +8435,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: '"Hello Customer welcome to [insert tea house title] slash Spirit Halloween"'
+  storyText: '"Hello Customer welcome to our tea room slash Spirit Halloween."'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8345,7 +8464,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: And on top of the murder I don't need an even creepier business.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8372,7 +8491,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: OK yeah I definitely just made it worse.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8398,7 +8517,7 @@ MonoBehaviour:
   itemId: 7
   indentLevel: 0
   storyText: '{i}The blue-sparkly Colgate actually does blend in with the color scheme
-    of the wall, but it starts to ooze out of the wall which is somehow even creepier.{/i}'
+    of the decor, but it starts to ooze out of the wall which is somehow even creepier.{/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8542,7 +8661,7 @@ MonoBehaviour:
 
 '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8569,7 +8688,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Ugh... this is going to need so much toothpaste.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8619,8 +8738,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 669323476}
+  selectedCommands:
+  - {fileID: 669323474}
   variables: []
   description: 
   stepPause: 0
@@ -8662,7 +8783,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 28.5934
-    y: -44.423523
+    y: -46.423523
     width: 142
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -9495,7 +9616,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 981450902}
   selectedCommands:
-  - {fileID: 981450903}
+  - {fileID: 981450905}
   variables: []
   description: 
   stepPause: 0
@@ -9523,7 +9644,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Oh no, Mister Assam! You were doing so well!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9566,7 +9687,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &981450903
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9580,7 +9701,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Would they?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9593,7 +9714,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &981450904
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9607,7 +9728,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: This sarcastic tea addict chipmunk wouldn't lie to me.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9620,7 +9741,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &981450905
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9632,10 +9753,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: '[chipmunk''s name] even congratulated me for taking such a good care
-    of you last week.'
+  storyText: Yaghraodrur even congratulated me for taking such a good care of you
+    last week.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -10069,7 +10190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 95540815}
+  selectedFlowchart: {fileID: 669323482}
 --- !u!4 &1121966049
 Transform:
   m_ObjectHideFlags: 1
@@ -10687,7 +10808,7 @@ MonoBehaviour:
   luaBindingName: flowchart
 --- !u!114 &1399068848
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10702,7 +10823,7 @@ MonoBehaviour:
   waitForFrames: 1
 --- !u!114 &1399068849
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10716,7 +10837,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: They need to be appreciated more by the general public!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -10729,7 +10850,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1399068850
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10743,7 +10864,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: ...I worked really hard on the decorations!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -10756,7 +10877,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1399068851
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10771,7 +10892,7 @@ MonoBehaviour:
   storyText: Murder's a serious topic and all, but I {i}really{/i} hope nothing's
     broken in this room
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -10784,7 +10905,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1399068852
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10798,7 +10919,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Let's see if I can find any clues in here.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1568301145}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -10811,7 +10932,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1399068853
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11295,6 +11416,56 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!1 &1568301144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1568301146}
+  - component: {fileID: 1568301145}
+  m_Layer: 0
+  m_Name: Character
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1568301145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568301144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Jessie
+  nameColor: {r: 0, g: 0.04305093, b: 0.5943396, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
+--- !u!4 &1568301146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568301144}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1585944927
 GameObject:
   m_ObjectHideFlags: 0

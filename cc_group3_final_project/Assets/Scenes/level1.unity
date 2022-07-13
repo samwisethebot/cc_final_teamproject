@@ -154,6 +154,56 @@ Transform:
   m_Father: {fileID: 669323464}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &94168164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 94168166}
+  - component: {fileID: 94168165}
+  m_Layer: 0
+  m_Name: Character
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &94168165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94168164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Jessie
+  nameColor: {r: 0.0053720973, g: 0.38679248, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
+--- !u!4 &94168166
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94168164}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &113086553
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,9 +865,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 315024715}
-  selectedCommands:
-  - {fileID: 315024716}
+  - {fileID: 315024720}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -930,7 +979,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Hm... getting some weird vibes here. I'm gonna go take a look around.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1033,12 +1082,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: They lived a long and happy life. I think... you know what, I'm not
-    so sure now. They would always just say their day was "good" and you know how
-    everyone loves to just lie about their day and carry on to go have their boba
-    tea in peace.
+  storyText: Yaghraodrur lived a long and happy life. I think... you know what, I'm
+    not so sure now. They would always just say their day was "good" and carry on
+    to go have their boba tea in peace.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1063,9 +1111,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: "Damn, they were such a good customer. It's a shame.\r"
+  storyText: "Damn, Yaghraodrur was such a good customer. It's a shame.\r"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1093,7 +1141,7 @@ MonoBehaviour:
   storyText: Walking in and seeing a murder in your business as a business owner
     is bad right?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1120,7 +1168,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: This seems bad.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1147,7 +1195,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Uh...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1174,7 +1222,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Oh. Shit.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2452,7 +2500,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Hm... how did it break though...?\r"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2480,7 +2528,7 @@ MonoBehaviour:
   storyText: "Yeah OK so I'm just going to make a very nice fabricated lie about
     how it broke.\r"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2507,7 +2555,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: ...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2563,7 +2611,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Hm... how did it break though...?\r"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2591,7 +2639,7 @@ MonoBehaviour:
   storyText: "Yeah OK so I'm just going to make a very nice fabricated lie about
     how it broke.\r"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2618,7 +2666,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: ...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2725,7 +2773,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Maybe I should tell her.\r"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2753,7 +2801,7 @@ MonoBehaviour:
   storyText: She's going to be so mad at me when she comes in here next and sees
     it isn't here. She always makes sure it's in here.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2780,7 +2828,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: This was a high school graduation gift from Mom.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2807,7 +2855,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Ughhhhhhh noooooooo. This tea pot was my fave.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2875,8 +2923,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 669323481}
-  selectedCommands: []
+  - {fileID: 669323470}
+  selectedCommands:
+  - {fileID: 669323467}
   variables: []
   description: 
   stepPause: 0
@@ -3817,10 +3866,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 981450902}
-  selectedCommands:
-  - {fileID: 981450901}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -3848,7 +3895,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I really should laminate these.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3905,7 +3952,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Or maybe now that one murder happened here it's just the beginning....
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3933,7 +3980,7 @@ MonoBehaviour:
   storyText: Maybe it's too late... What's the probability another murder will happen
     here?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3960,7 +4007,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I really should laminate these at some point.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5399,11 +5446,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 69.587585, y: 65.93277}
+  scrollPos: {x: 145.89671, y: 107.28052}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 511
-  zoom: 1
+  zoom: 0.7600002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -11851,7 +11898,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2097497421}
+  - {fileID: 2097497400}
   selectedCommands: []
   variables:
   - {fileID: 2097497422}
@@ -11881,7 +11928,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Look, it's glowing purple. That's the only explanation.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -11908,7 +11955,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: And maybe I bought this there...?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -11937,7 +11984,7 @@ MonoBehaviour:
     books out of the back of it and anytime it parks out front, I feel like I have
     to buy something.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -11964,7 +12011,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Have I... always had this book?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12163,7 +12210,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I think I could rock the look of casually carrying this around.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12188,8 +12235,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 144.41241
-    y: 112.06723
+    x: 225.41241
+    y: 145.06723
     width: 147
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -12225,7 +12272,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: OK but does it make me look cooler?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12252,7 +12299,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: ...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12279,7 +12326,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Even if it's glowing purple and giving an ominous energy.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12306,7 +12353,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Clearly I'll fall for anything.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12333,7 +12380,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I cannot be trusted around good salespeople.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12360,7 +12407,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: See, this is exactly why I should avoid buying anything ever.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12387,7 +12434,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I would've noticed the purple glow while buying it, right?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12414,7 +12461,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: How is it even doing this????
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12441,7 +12488,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: And near {i}is{/i} a funny word.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12468,7 +12515,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Nahhhhh. I'm probably just on edge.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12495,7 +12542,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: ...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12522,7 +12569,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Am I going crazy? Is the book making me crazy?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12549,7 +12596,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: ...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12576,7 +12623,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: It sounds more unhinged the more you say it.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12603,7 +12650,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Near. Neeeeaaaarrr. Near. Near! Near.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12630,7 +12677,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"Near" is a funny word.'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 94168165}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12656,8 +12703,8 @@ MonoBehaviour:
   itemId: 10
   indentLevel: 0
   storyText: '{i}A few blood splatters are on the page, but they''ve dried up over
-    time. Across the top of the page, the phrase IT IS NIGH is scratched out in poor
-    calligraphy.{/i}'
+    time. Across the top of the page, the phrase IT IS NEAR is scratched out in poor
+    eldritch calligraphy.{/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
