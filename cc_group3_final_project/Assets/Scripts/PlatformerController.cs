@@ -15,8 +15,7 @@ public class PlatformerController : MonoBehaviour
     //Assigning a variable where we'll store the Rigidbody component.
     private Rigidbody rb;
 
-    private bool onGround;
-    private bool canJump;
+  
 
 
     // Start is called before the first frame update
@@ -30,63 +29,21 @@ public class PlatformerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Check if the player is on the ground. If we are, then we are able to jump.
-        if (onGround == true)
-        {
-            canJump = true;
-        }
-        //If we're able to jump and the player has pressed the space bar, then we jump!
-        if (Input.GetKeyDown(KeyCode.Space) && canJump == true)
-        {
-            rb.velocity = Vector2.up * jumpHeight;
-            canJump = false;
-        }
-        //If we're able to jump and the player has pressed w, then we jump!
-        if (Input.GetKeyDown(KeyCode.W) && canJump == true)
-        {
-            rb.velocity = Vector2.up * jumpHeight;
-            canJump = false;
-        }
-
-        //Movement code for left and right arrow keys.
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            float finalSpeed = speed;
-            if (onGround == false)
-            {
-                finalSpeed *= 0.5f;
-            }
-            rb.velocity = new Vector2(-speed, rb.velocity.y);
-        }
-
-        else if (Input.GetKey(KeyCode.RightArrow))
-        {
-            float finalSpeed = speed;
-            if (onGround == false)
-            {
-                finalSpeed *= 0.5f;
-            }
-            rb.velocity = new Vector2(+speed, rb.velocity.y);
-        }
+        
 
         //Movement code for a and d keys.
         if (Input.GetKey(KeyCode.A))
         {
             float finalSpeed = speed;
-            if (onGround == false)
-            {
-                finalSpeed *= 0.5f;
-            }
+            
             rb.velocity = new Vector2(-speed, rb.velocity.y);
         }
 
         else if (Input.GetKey(KeyCode.D))
         {
             float finalSpeed = speed;
-            if (onGround == false)
-            {
-                finalSpeed *= 0.5f;
-            }
+        
+            
             rb.velocity = new Vector2(+speed, rb.velocity.y);
         }
         //ELSE if we're not pressing an arrow key, our velocity is 0 along the X axis, and whatever the Y velocity is (determined by jump)
@@ -97,23 +54,5 @@ public class PlatformerController : MonoBehaviour
     }
 
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        //If we collide with an object tagged "ground" then our jump resets and we can now jump.
-        if (collision.gameObject.tag == "Ground")
-        {
-            onGround = true;
-            
-        }
-    }
-
-    private void OnCollisionExit(Collision collision)
-    {
-        //If we exit our collision with the "ground" object, then we are unable to jump.
-        if (collision.gameObject.tag == "Ground")
-        {
-            onGround = false;
-            
-        }
-    }
+   
 }
