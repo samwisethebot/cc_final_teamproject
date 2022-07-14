@@ -7036,7 +7036,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 315024711}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.14, y: -2.68, z: 0}
+  m_LocalPosition: {x: 9.91, y: 0.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children:
   - {fileID: 1585944928}
@@ -7054,8 +7054,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.62, y: 1, z: 0}
-  m_Center: {x: -3.11, y: -0.09, z: 0}
+  m_Size: {x: 2.43, y: 3.19, z: 0}
+  m_Center: {x: -2.8, y: 0.11, z: 0}
 --- !u!114 &315024714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9575,7 +9575,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 777552027}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 26.12, y: 0.34, z: -0.018873554}
+  m_LocalPosition: {x: 26.12, y: 2.86, z: -0.018873554}
   m_LocalScale: {x: 1.1887356, y: 1.1887356, z: 1.1887356}
   m_Children: []
   m_Father: {fileID: 504079773}
@@ -10331,8 +10331,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 3.35, y: 5.35, z: 1}
+  m_Center: {x: 0.06, y: -0.25, z: 0}
 --- !u!114 &981450900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10930,8 +10930,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996075210}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.31, y: 0.72, z: -0.018873554}
-  m_LocalScale: {x: 1.1887356, y: 1.1887356, z: 1.1887356}
+  m_LocalPosition: {x: 8.11, y: 2.68, z: -0.018873554}
+  m_LocalScale: {x: 1.1794835, y: 0.98355985, z: 1.1887356}
   m_Children: []
   m_Father: {fileID: 504079773}
   m_RootOrder: 5
@@ -12524,7 +12524,7 @@ GameObject:
   - component: {fileID: 1585944928}
   - component: {fileID: 1585944929}
   m_Layer: 0
-  m_Name: dead chipmunk visuals
+  m_Name: tea shelf visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12538,8 +12538,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585944927}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.06, y: -0.18, z: 0}
-  m_LocalScale: {x: 0.3998, y: 0.3998, z: 0}
+  m_LocalPosition: {x: -2.7836, y: 0.2069, z: 0}
+  m_LocalScale: {x: 0.5103447, y: 0.5103447, z: 0}
   m_Children: []
   m_Father: {fileID: 315024712}
   m_RootOrder: 0
@@ -12584,8 +12584,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 3543defbbc6474ae2b293ce24ebb6e47, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 40d5ab7eae6614b99b541ee779665c80, type: 3}
+  m_Color: {r: 0.8352941, g: 0.9137255, b: 0.9864428, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -12720,6 +12720,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1749701586}
+  - component: {fileID: 1749701588}
+  - component: {fileID: 1749701587}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -12742,6 +12744,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1749701587
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749701585}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9371414, y: 32.070457, z: 1}
+  m_Center: {x: 19.08, y: 12.297315, z: 0}
+--- !u!65 &1749701588
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749701585}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9371414, y: 32.070457, z: 1}
+  m_Center: {x: -20.87, y: 12.297315, z: 0}
 --- !u!1 &1817115165
 GameObject:
   m_ObjectHideFlags: 0
@@ -13027,7 +13055,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 954d7e7ae9d35445f8ccfc309d79aa1e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
