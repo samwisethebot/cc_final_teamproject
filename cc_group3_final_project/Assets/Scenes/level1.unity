@@ -366,7 +366,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &113086553
 GameObject:
@@ -2093,7 +2093,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &454349065
 GameObject:
@@ -2577,8 +2577,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583209078}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.2963, y: 0.9572, z: 0}
-  m_LocalScale: {x: 1.5925, y: 2.9143, z: 1}
+  m_LocalPosition: {x: 0.13, y: 1.55, z: 0}
+  m_LocalScale: {x: 1.5925, y: 1.8782663, z: 1}
   m_Children: []
   m_Father: {fileID: 427864429}
   m_RootOrder: 0
@@ -2623,8 +2623,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 0a00d89b0fe1b564cba849bae5889b49, type: 3}
+  m_Color: {r: 0.8584906, g: 0.77480125, b: 0.8448135, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3584,8 +3584,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.9521141, y: 2.8813376, z: 1}
-  m_Center: {x: 0.61304855, y: 0.9406693, z: 0}
+  m_Size: {x: 0.9521141, y: 3.4570782, z: 1}
+  m_Center: {x: 0.61304855, y: 1.2285396, z: 0}
 --- !u!4 &695891517
 Transform:
   m_ObjectHideFlags: 0
@@ -4490,7 +4490,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 848250836}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.79, y: -1.13, z: 0}
+  m_LocalPosition: {x: -10.79, y: -1.13, z: -0.1}
   m_LocalScale: {x: 0.61871, y: 0.61871, z: 0.61871}
   m_Children: []
   m_Father: {fileID: 568179095}
@@ -6776,8 +6776,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.8313856, y: 2.9109766, z: 1}
-  m_Center: {x: -0.4964795, y: 0.9554883, z: 0}
+  m_Size: {x: 0.66128063, y: 3.3558671, z: 1}
+  m_Center: {x: -0.41142702, y: 1.1779336, z: 0}
 --- !u!82 &1408558544
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7361,7 +7361,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1693444679
 GameObject:
@@ -7582,7 +7582,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1777458150
 AudioSource:
