@@ -16,11 +16,11 @@ public class MusicPlay : MonoBehaviour
               DontDestroyOnLoad(gameObject);
               musicplay = this;
           }
-          
           else if (musicplay != this)
           {
               Destroy(gameObject);
           }
+          
       }
      public void StartBackgroundMusic(bool aRestart)
      {
